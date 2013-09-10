@@ -1,0 +1,282 @@
+//Manejo de Arreglos
+//Cynthia Castillo
+//Sergio Casas
+acoustatic piece busquedaArreglos
+{
+	int nada = 0;
+
+	
+	
+		new Instrument ce{
+		sounds
+		{
+			new Sound cece
+			{
+				//volumen
+				intensity: 1;
+				//duracion
+				duration: 500;
+				//tono esta en la 10ma linea
+				pitch: 300;
+			}
+		}
+	}
+		new Instrument cesharp{
+		sounds
+		{
+			new Sound cesharpcesharp
+			{
+				//volumen
+				intensity: 1;
+				//duracion
+				duration: 500;
+				//tono esta en la 10ma linea
+				pitch: 329;
+			}
+		}
+	}
+		new Instrument de{
+		sounds
+		{
+			new Sound dede
+			{
+				//volumen
+				intensity: 1;
+				//duracion
+				duration: 500;
+				//tono esta en la 10ma linea
+				pitch: 359;
+			}
+		}
+	}
+		new Instrument ebemol{
+		sounds
+		{
+			new Sound ebemolebemol
+			{
+				//volumen
+				intensity: 1;
+				//duracion
+				duration: 500;
+				//tono esta en la 10ma linea
+				pitch: 392;
+			}
+		}
+	}
+	
+	new Instrument e{
+		sounds
+		{
+			new Sound ee
+			{
+				//volumen
+				intensity: 1;
+				//duracion
+				duration: 500;
+				//tono esta en la 10ma linea
+				pitch: 421;
+			}
+		}
+	}
+		new Instrument efe{
+		sounds
+		{
+			new Sound efeefe
+			{
+				//volumen
+				intensity: 1;
+				//duracion
+				duration: 500;
+				//tono esta en la 10ma linea
+				pitch: 458;
+			}
+		}
+	}
+		new Instrument efesharp{
+		sounds
+		{
+			new Sound efesharpefesharp
+			{
+				//volumen
+				intensity: 1;
+				//duracion
+				duration: 500;
+				//tono esta en la 10ma linea
+				pitch: 498;
+			}
+		}
+	}
+		new Instrument ge{
+		sounds
+		{
+			new Sound gege
+			{
+				//volumen
+				intensity: 1;
+				//duracion
+				duration: 500;
+				//tono esta en la 10ma linea
+				pitch: 538;
+			}
+		}
+	}
+		new Instrument gesharp{
+		sounds
+		{
+			new Sound gesharpgesharp
+			{
+				//volumen
+				intensity: 1;
+				//duracion
+				duration: 500;
+				//tono esta en la 10ma linea
+				pitch: 585;
+			}
+		}
+	}
+		new Instrument a{
+		sounds
+		{
+			new Sound aa
+			{
+				//volumen
+				intensity: 1;
+				//duracion
+				duration: 500;
+				//tono esta en la 10ma linea
+				pitch: 627;
+			}
+		}
+	}
+		new Instrument bebemol{
+		sounds
+		{
+			new Sound bebemolbebemol
+			{
+				//volumen
+				intensity: 1;
+				//duracion
+				duration: 500;
+				//tono esta en la 10ma linea
+				pitch: 674;
+			}
+		}
+	}
+		new Instrument be{
+		sounds
+		{
+			new Sound bebe
+			{
+				//volumen
+				intensity: 1;
+				//duracion
+				duration: 500;
+				//tono esta en la 10ma linea
+				pitch: 726;
+			}
+		}
+	}
+		new Instrument cedos{
+		sounds
+		{
+			new Sound cedoscedos
+			{
+				//volumen
+				intensity: 1;
+				//duracion
+				duration: 500;
+				//tono esta en la 10ma linea
+				pitch: 780;
+			}
+		}
+	}
+		new Instrument cesharpdos{
+		sounds
+		{
+			new Sound cesharpdoscesharpdos
+			{
+				//volumen
+				intensity: 1;
+				//duracion
+				duration: 500;
+				//tono esta en la 10ma linea
+				pitch: 836;
+			}
+		}
+	}
+		new Instrument dedos{
+		sounds
+		{
+			new Sound dedosdedos
+			{
+				//volumen
+				intensity: 1;
+				//duracion
+				duration: 500;
+				//tono esta en la 10ma linea
+				pitch: 898;
+			}
+		}
+	}
+		new Instrument ebemoldos{
+		sounds
+		{
+			new Sound ebemoldosebemoldos
+			{
+				//volumen
+				intensity: 1;
+				//duracion
+				duration: 500;
+				//tono esta en la 10ma linea
+				pitch: 960;
+			}
+		}
+	}
+		new Instrument edos{
+		sounds
+		{
+			new Sound edosedos
+			{
+				//volumen
+				intensity: 1;
+				//duracion
+				duration: 500;
+				//tono esta en la 10ma linea
+				pitch: 1100;
+			}
+		}
+	}
+	new Instrument efedos{
+		sounds
+		{
+			new Sound efedosefedos
+			{
+				//volumen
+				intensity: 1;
+				//duracion
+				duration: 500;
+				//tono esta en la 10ma linea
+				pitch: 1177;
+			}
+		}
+	}
+
+	new instruments
+	{
+		something
+	}
+	function int fibonacci(int n){
+		int x = 0;
+	}
+	
+	play{
+		
+
+		
+	}
+
+	function void main(){
+		int osom = 1330 + 7;
+		play();
+	}
+}

@@ -1,0 +1,63 @@
+//Cynthia Castillo
+//Sergio Casas
+acoustatic piece fibonacciRec
+{
+	int nada = 0;
+
+	new instruments
+	{
+		something
+	}
+
+	function int fibonacci(int n)
+	{
+		
+		int retorno = 0;
+		if(n <= 0)
+		{
+			retorno = 0;
+			//print("REGRESE CERO");
+			return retorno;
+		}
+		else
+		{
+			if(n<=1)
+			{
+				retorno = 1;
+				//print("REGRESE UNO");
+				return retorno;
+			}
+			else
+			{
+				int menosUno = n-1;
+				int menosDos = n-2;
+				//print("numUno");
+				//print(menosUno);
+				int num1 = fibonacci(menosUno);
+				//print("numDos");
+				//print(menosDos);
+				int num2 = fibonacci(menosDos);
+				retorno = num1 + num2;
+				//print(retorno);
+				return retorno;
+			}
+		}
+		
+		return retorno;
+	}
+	
+	play
+	{
+		fibonacci(0);
+	}
+
+	function void main()
+	{
+		int i= 10;
+		int varFinal = 0;
+		varFinal = fibonacci(i);
+		print(varFinal);
+		
+		
+	}
+}

@@ -1,0 +1,162 @@
+//Manejo de Arreglos
+//Cynthia Castillo
+//Sergio Casas
+acoustatic piece busquedaArreglos
+{
+	int arr[15];
+	int nada = 0;
+	
+
+
+	new instruments
+	{
+		something
+	}
+	
+	function int fibonacci(int n){
+		int x = 0;
+	}
+	
+	
+	function int binarySearch(int target)
+	{
+		int inf = 0;
+		int sup = 15;
+		int resut = 0-1;
+		
+		
+		//print("TARGET");
+		//print(target);
+		while(inf <= sup)
+		{
+			//print("INF");
+			//print(inf);
+			//print("SUP");
+			//print(sup);
+			//print("Med");
+			
+			int med = (inf + sup)/2;
+			int casoPruega = arr[med];
+			
+			//print(casoPruega);
+			if(casoPruega == target)
+			{
+				//print(casoPruega);
+				resut = med;
+				sup = 0;
+			}
+			else
+			{
+				if(casoPruega < target)
+				{
+					inf = med+1;
+				}
+				else
+				{
+					sup = med-1;
+				}
+			}
+		}
+		return resut;
+	}
+	
+	play{
+		fibonacci(0);
+	}
+
+	function void main(){
+		int osom = 1330 + 7;
+		
+		arr[0] = 4127;
+		arr[1] = 5916;
+		arr[2] = 3423;
+		arr[3] = 3088;
+		arr[4] = 2124;
+		arr[5] = 1398;
+		arr[6] = 2787;
+		arr[7] = 5829;
+		arr[8] = 4137;
+		arr[9] = 1920;
+		arr[10] = 4833;
+		arr[11] = 5635;
+		arr[12] = 5260;
+		arr[13] = 1527;
+		arr[14] = 1561;
+		
+		
+		boolean sorted = false;
+		boolean comparator = true;
+		int tama = 15;
+		
+		int iterator = 0;
+		print("DESOrdenado");
+		print(arr[0]);
+		print(arr[1]);
+		print(arr[2]);
+		print(arr[3]);
+		print(arr[4]);
+		print(arr[5]);
+		print(arr[6]);
+		print(arr[7]);
+		print(arr[8]);
+		print(arr[9]);
+		print(arr[10]);
+		print(arr[11]);
+		print(arr[12]);
+		print(arr[13]);
+		print(arr[14]);
+		
+		
+		
+		while(sorted <> comparator)
+		{
+			int i = 0-1;
+			int iMasUno = 0;
+			sorted = true;
+			int elemAntes = 0;
+			int elemDespues = 0;
+			while(i < tama-2)
+			{
+				i = i+1;
+				iMasUno = i+1;
+				
+				elemAntes = arr[i];
+				elemDespues= arr[iMasUno];
+				if( elemAntes > elemDespues)
+				{
+					sorted = false;
+					
+					int iNormal = arr[i];
+					int iMas = arr[iMasUno];
+					
+					arr[iMasUno] = iNormal;
+					arr[i] = iMas;
+				}
+				
+			}
+		}
+		print("Ordenado");
+		print(arr[0]);
+		print(arr[1]);
+		print(arr[2]);
+		print(arr[3]);
+		print(arr[4]);
+		print(arr[5]);
+		print(arr[6]);
+		print(arr[7]);
+		print(arr[8]);
+		print(arr[9]);
+		print(arr[10]);
+		print(arr[11]);
+		print(arr[12]);
+		print(arr[13]);
+		print(arr[14]);
+		
+		
+		int resultado = binarySearch(2787);
+		print("lo encontre en");
+		print(resultado);
+		
+		
+	}
+}

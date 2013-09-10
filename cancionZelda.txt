@@ -1,0 +1,185 @@
+//Manejo de Arreglos
+//Cynthia Castillo
+//Sergio Casas
+acoustatic piece busquedaArreglos
+{
+	int nada = 0;
+
+	
+	new Instrument ocarina1{
+		sounds
+		{
+			new Sound oca11
+			{
+				//volumen
+				intensity: 1;
+				//duracion
+				duration: 1000;
+				//tono esta en la 10ma linea
+				pitch: 700;
+			},
+			new Sound oca12
+			{
+				//volumen
+				intensity: .8;
+				//duracion
+				duration: 1000;
+				//tono esta en la 10ma linea
+				pitch: 705;
+			},
+			new Sound oca13
+			{
+				//volumen
+				intensity: .8;
+				//duracion
+				duration: 1000;
+				//tono esta en la 10ma linea
+				pitch: 695;
+			}
+		}
+	}
+	new Instrument ocarina2{
+		sounds
+		{
+			new Sound oca21	
+			{
+				//volumen
+				intensity: 1;
+				//duracion
+				duration: 2000;
+				//tono esta en la 10ma linea
+				pitch: 800;
+			},
+			new Sound oca22
+			{
+				//volumen
+				intensity: 1;
+				//duracion
+				duration: 2000;
+				//tono esta en la 10ma linea
+				pitch: 805;
+			},
+			new Sound oca23
+			{
+				//volumen
+				intensity: 1;
+				//duracion
+				duration: 2000;
+				//tono esta en la 10ma linea
+				pitch: 795;
+			}
+		}
+	}
+	new Instrument ocarina3{
+		sounds
+		{
+			new Sound oca31
+			{
+				//volumen
+				intensity: .5;
+				//duracion
+				duration: 1000;
+				//tono esta en la 10ma linea
+				pitch: 650;
+			},
+			new Sound oca32
+			{
+				//volumen
+				intensity: .8;
+				//duracion
+				duration: 1000;
+				//tono esta en la 10ma linea
+				pitch: 645;
+			},
+			new Sound oca33
+			{
+				//volumen
+				intensity: .8;
+				//duracion
+				duration: 1000;
+				//tono esta en la 10ma linea
+				pitch: 655;
+			}
+		}
+	}
+	new instruments
+	{
+		something
+	}
+	function int fibonacci(int n){
+		int x = 0;
+	}
+	
+	play{
+		500:1500
+		{
+			ocarina1;
+		}
+		1500:2500
+		{
+			ocarina2:loops;
+		}
+		2500:3500
+		{
+			ocarina3;
+		}
+	}
+
+	function void main(){
+		int osom = 1330 + 7;
+		int arr[5];
+		arr[0] = 9;
+		arr[1] = 1;
+		arr[2] = 3;
+		arr[3] = 8;
+		arr[4] = 4;
+		arr[3] = 5;
+		
+		boolean sorted = false;
+		boolean comparator = true;
+		int tama = 5;
+		
+		int iterator = 0;
+		print(arr[0]);
+		print(arr[1]);
+		print(arr[2]);
+		print(arr[3]);
+		print(arr[4]);
+		
+		
+		
+		while(sorted <> comparator)
+		{
+			int i = 0-1;
+			int iMasUno = 0;
+			sorted = true;
+			int elemAntes = 0;
+			int elemDespues = 0;
+			while(i < tama-2)
+			{
+				i = i+1;
+				iMasUno = i+1;
+				
+				elemAntes = arr[i];
+				elemDespues= arr[iMasUno];
+				if( elemAntes > elemDespues)
+				{
+					sorted = false;
+					
+					int iNormal = arr[i];
+					int iMas = arr[iMasUno];
+					
+					arr[iMasUno] = iNormal;
+					arr[i] = iMas;
+				}
+				
+			}
+		}
+		print(arr[0]);
+		print(arr[1]);
+		print(arr[2]);
+		print(arr[3]);
+		print(arr[4]);
+		play();
+	}
+}

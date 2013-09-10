@@ -1,0 +1,40 @@
+//Cynthia Castillo
+//Sergio Casas
+acoustatic piece factorialIt
+{
+	int nada = 0;
+
+	new instruments
+	{
+		something
+	}
+
+	function int fibonacci(int n)
+	{
+		int x =0;
+	}
+	
+	play
+	{
+		fibonacci(0);
+	}
+
+	function void main()
+	{
+		//int varFinal = fibonacci(5);
+		int varFinal = 0;
+		int entrada = 6;
+		int indice = 1;
+		int factorial = 1;
+		//while(indice < entrada || indice == entrada)
+		//FACTORIALCICLICO
+		while(indice <= entrada)
+		{
+				factorial = factorial * indice;
+				indice = indice + 1;
+		}
+		
+		print(factorial);
+		
+	}
+}

@@ -1,0 +1,42 @@
+acoustatic piece esfuerzoNumeroCuatro
+{
+	int nada = 0;
+
+	new instruments
+	{
+		something
+	}
+
+	function int fibonacci(int n)
+	{	
+		int retorno = 0;
+		return retorno;
+	}
+	function int factorial(int n)
+	{	
+		int resultado = 0;
+		int temp = 0;
+		if(n > 1)
+		{
+			print(n);
+			temp = n-1;
+			int temp2 = factorial(temp);
+			resultado = n * temp2;
+		}
+		else
+		{
+			resultado = 1;
+		}
+		return resultado;
+	}
+	play
+	{
+		fibonacci(0);
+	}
+
+	function void main()
+	{
+		int resultado = factorial(6);
+		print(resultado);
+	}
+}
